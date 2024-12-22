@@ -8,4 +8,4 @@ N/B
 This app is still in development...
 
 ## SCREENSHOTS
-![Stroll Demo](https://github.com/user-attachments/assets/fa6f8a8d-82bd-4da2-a5ff-296bd890bafb)
+![Stroll Demo](https://github.com/user-attachments/assets/671ab082-cf14-483b-9a70-bea5e53cdf10)
