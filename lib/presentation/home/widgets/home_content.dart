@@ -64,7 +64,7 @@ class _HomeContentState extends State<HomeContent> {
               children: [
                 Container(
                   padding: const EdgeInsets.all(16),
-                  height: context.screenHeight / 2.6,
+                  height: context.screenHeight / 2.5,
                   width: context.screenWidth,
                   decoration: BoxDecoration(
                     color: AppColors.fromHex('#010101'),
@@ -126,15 +126,15 @@ class _HomeContentState extends State<HomeContent> {
                     decoration: BoxDecoration(
                       color: AppColors.fromHex('#121517'),
                       borderRadius: const BorderRadius.only(
-                          topRight: Radius.circular(10),
-                          bottomRight: Radius.circular(10),
+                          topRight: Radius.circular(15),
+                          bottomRight: Radius.circular(15),
                           topLeft: Radius.circular(0),
                           bottomLeft: Radius.circular(5)),
                     ),
                     margin: const EdgeInsets.only(bottom: 20),
                     padding: const EdgeInsets.all(5),
                     child: const AppText(
-                      text: '     Angelina, 28  ',
+                      text: '     Angelina, 28   ',
                       fontWeight: FontWeight.w600,
                     ),
                   ),
