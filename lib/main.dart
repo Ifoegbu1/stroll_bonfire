@@ -4,7 +4,7 @@ import 'package:device_preview_screenshot/device_preview_screenshot.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:stroll_bonfire/core/theme/theme_config.dart';
-import 'package:stroll_bonfire/presentation/home/home_screen.dart';
+import 'package:stroll_bonfire/presentation/home/app_bottom_bar/app_bottom_bar.dart';
 
 void main() {
   runApp(DevicePreview(
@@ -13,7 +13,7 @@ void main() {
         ...DevicePreview.defaultTools,
         DevicePreviewScreenshot(
           onScreenshot:
-              screenshotAsFiles(Directory('/storage/emulated/0/Pictures')),
+              screenshotAsFiles(Directory('/home/ifoegbu1/LATEST WORK/STROLL/screenshots')),
         ),
       ],
       builder: (context) {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Stroll Bonfire',
       theme: appLightTheme,
-      home: const HomeScreen(),
+      home: const AppBottomBar(),
     );
   }
 }
