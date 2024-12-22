@@ -75,7 +75,7 @@ jobs:
           echo "STARTING APP SIGN" 
           sudo apt-get -y install apksigner
           apksigner sign --ks ${{ secrets.KEYSTORE_FILE }} --ks-key-alias ${{ secrets.KEY_ALIAS }} --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} --key-pass pass:${{ secrets.KEY_PASSWORD }} build/app/outputs/flutter-apk/app-arm64-v8a-release.apk 
-          mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk build/app/outputs/flutter-apk/Stroll-BonFire.apk
+          mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk build/app/outputs/flutter-apk/StrollBonFire.apk
 
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
