@@ -75,7 +75,44 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/proxima-nova/ProximaNova-Black.ttf
+          weight: 900
+        - asset: assets/fonts/proxima-nova/ProximaNova-BlackIt.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNova-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/proxima-nova/ProximaNova-BoldIt.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNova-Extrabld.ttf
+          weight: 800
+        - asset: assets/fonts/proxima-nova/ProximaNova-ExtrabldIt.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNova-Light.ttf
+          weight: 300
+        - asset: assets/fonts/proxima-nova/ProximaNova-LightIt.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNova-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/proxima-nova/ProximaNova-RegularIt.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNova-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/proxima-nova/ProximaNova-SemiboldIt.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNova-ThinIt.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/proxima-nova/ProximaNovaT-Thin.ttf
+          weight: 100
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
