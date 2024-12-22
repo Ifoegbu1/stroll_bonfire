@@ -2,7 +2,7 @@
 
 ## A Demo for the Stroll Dating App
 
-This app was made with Flutter(v3.24.0)
+This app was made with Flutter(**v3.24.0**)
 
 N/B
 This app is still in development...
