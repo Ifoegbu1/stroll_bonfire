@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:device_preview_screenshot/device_preview_screenshot.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:stroll_bonfire/core/theme/theme_config.dart';
 
 void main() {
   runApp(DevicePreview(
@@ -29,10 +30,7 @@ class MyApp extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: appLightTheme,
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -68,7 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'What is your favorite time of the day?',
+              style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
             ),
             Text(
               '$_counter',
