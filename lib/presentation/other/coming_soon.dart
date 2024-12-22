@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:stroll_bonfire/core/app_assets.dart';
 import 'package:stroll_bonfire/core/extensions/context_extension.dart';
-import 'package:stroll_bonfire/widgets/app_text.dart';
-import 'package:stroll_bonfire/widgets/custom_image_view.dart';
+import 'package:stroll_bonfire/core/widgets/app_text.dart';
+import 'package:stroll_bonfire/core/widgets/custom_image_view.dart';
 
 class ComingSoon extends StatelessWidget {
   const ComingSoon({super.key});

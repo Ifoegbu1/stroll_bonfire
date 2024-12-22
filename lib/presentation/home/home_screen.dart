@@ -3,7 +3,7 @@ import 'package:stroll_bonfire/core/app_assets.dart';
 import 'package:stroll_bonfire/core/extensions/context_extension.dart';
 import 'package:stroll_bonfire/core/theme/app_colors.dart';
 import 'package:stroll_bonfire/presentation/home/widgets/home_content.dart';
-import 'package:stroll_bonfire/widgets/custom_image_view.dart';
+import 'package:stroll_bonfire/core/widgets/custom_image_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

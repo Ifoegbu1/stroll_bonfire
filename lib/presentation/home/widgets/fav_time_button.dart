@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:stroll_bonfire/core/extensions/context_extension.dart';
 import 'package:stroll_bonfire/core/theme/app_colors.dart';
-import 'package:stroll_bonfire/widgets/app_text.dart';
-import 'package:stroll_bonfire/widgets/custom_elevated_button.dart';
+import 'package:stroll_bonfire/core/widgets/app_text.dart';
+import 'package:stroll_bonfire/core/widgets/custom_elevated_button.dart';
 
 class FavTimeButton extends StatelessWidget {
   final bool isSelected;

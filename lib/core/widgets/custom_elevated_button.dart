@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stroll_bonfire/core/theme/app_colors.dart';
-import 'package:stroll_bonfire/utils/generics.dart';
+import 'package:stroll_bonfire/core/utils/generics.dart';
 
 
 class CustomElevatedButton extends StatelessWidget {

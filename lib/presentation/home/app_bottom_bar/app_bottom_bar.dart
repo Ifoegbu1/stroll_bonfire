@@ -5,8 +5,8 @@ import 'package:stroll_bonfire/core/app_assets.dart';
 import 'package:stroll_bonfire/core/theme/app_colors.dart';
 import 'package:stroll_bonfire/presentation/home/home_screen.dart';
 import 'package:stroll_bonfire/presentation/other/coming_soon.dart';
-import 'package:stroll_bonfire/widgets/app_text.dart';
-import 'package:stroll_bonfire/widgets/custom_image_view.dart';
+import 'package:stroll_bonfire/core/widgets/app_text.dart';
+import 'package:stroll_bonfire/core/widgets/custom_image_view.dart';
 import 'package:transitioned_indexed_stack/transitioned_indexed_stack.dart';
 
 class AppBottomBar extends StatefulWidget {
