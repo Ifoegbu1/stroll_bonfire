@@ -4,6 +4,8 @@
 class AppAssets {
   const AppAssets._();
 
+  static const String ASSETS_HOME_IMG_JPG = 'assets/home_img.jpg';
+
   static const String ASSETS_ICONS_BONFIRE_SVG = 'assets/icons/bonfire.svg';
 
   static const String ASSETS_ICONS_CARD_SVG = 'assets/icons/card.svg';
