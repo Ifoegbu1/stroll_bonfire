@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:substring_highlight/substring_highlight.dart';
 
@@ -25,7 +24,7 @@ class AppText extends StatelessWidget {
     this.fontSize,
     this.fontWeight,
     this.highLightWeight,
-    this.fontClr = Colors.black,
+    this.fontClr = Colors.white,
     this.txtHighlightClr,
     this.fontFamily,
     this.maxLines,
