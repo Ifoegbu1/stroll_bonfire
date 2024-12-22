@@ -1,0 +1,12 @@
+exclude:
+  - "**/*.ttf"
+
+watch: true
+# watch: true
+
+preview: false
+
+output: lib/core/app_assets.dart
+# output: lib/const/resource.dart
+
+name: AppAssets
