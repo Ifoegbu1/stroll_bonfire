@@ -1,16 +1,12 @@
-# stroll_bonfire
+# Stroll Demo
 
-A new Flutter project.
+## A Demo for the Stroll Dating App
 
-## Getting Started
+This app was made with Flutter(v3.24.0)
 
-This project is a starting point for a Flutter application.
+N/B
+This app is still in development...
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## SCREENSHOTS
+![android_phone_samsung-galaxy-note20-ultra_1734892977445](https://github.com/user-attachments/assets/cb58e52a-db92-4ba7-b3a7-4571d83ab172)
+![ios_phone_iphone-13-pro-max_1734893030342](https://github.com/user-attachments/assets/d630c510-acc8-4c9f-b6d4-e34d45cdedbe)
