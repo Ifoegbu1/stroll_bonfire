@@ -7,13 +7,15 @@ import 'package:stroll_bonfire/core/theme/theme_config.dart';
 import 'package:stroll_bonfire/presentation/home/app_bottom_bar/app_bottom_bar.dart';
 
 void main() {
+  // await precacheImage(AssetImage('assets/images/large_image.png'), null);
+
   runApp(DevicePreview(
       enabled: kDebugMode,
       tools: [
         ...DevicePreview.defaultTools,
         DevicePreviewScreenshot(
-          onScreenshot:
-              screenshotAsFiles(Directory('/home/ifoegbu1/LATEST WORK/STROLL/screenshots')),
+          onScreenshot: screenshotAsFiles(
+              Directory('/home/ifoegbu1/LATEST WORK/STROLL/screenshots')),
         ),
       ],
       builder: (context) {

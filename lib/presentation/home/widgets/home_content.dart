@@ -35,6 +35,7 @@ class _HomeContentState extends State<HomeContent> {
       child: Center(
         child: Column(
           children: [
+            const Gap(20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -63,7 +64,7 @@ class _HomeContentState extends State<HomeContent> {
               children: [
                 Container(
                   padding: const EdgeInsets.all(16),
-                  height: context.screenHeight / 2.5,
+                  height: context.screenHeight / 2.6,
                   width: context.screenWidth,
                   decoration: BoxDecoration(
                     color: AppColors.fromHex('#010101'),
@@ -72,7 +73,7 @@ class _HomeContentState extends State<HomeContent> {
                           color: Colors.black54,
                           offset: Offset(0, -9),
                           blurRadius: 8,
-                          spreadRadius: 5),
+                          spreadRadius: 10),
                     ],
                   ),
                   child: Column(

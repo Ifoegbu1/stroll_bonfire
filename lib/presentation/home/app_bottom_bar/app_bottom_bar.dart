@@ -79,9 +79,11 @@ class _AppBottomBarState extends State<AppBottomBar> {
         gapLocation: GapLocation.none,
         activeIndex: activeIndex,
         onTap: (value) {
-          setState(() {
-            activeIndex = value;
-          });
+          if (activeIndex != value) {
+            setState(() {
+              activeIndex = value;
+            });
+          }
         },
       ),
     );
